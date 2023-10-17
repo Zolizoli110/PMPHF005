@@ -29,7 +29,7 @@ namespace PMPHF05
         if (split[0] == "SUB")
         {
           Sub(split[1], split[2], split[3]);
-        } else if (split[0] == "SUB")
+        } else if (split[0] == "MOV")
         {
           Mov(split[1], split[2]);
         } else if (split[0] == "ADD")
